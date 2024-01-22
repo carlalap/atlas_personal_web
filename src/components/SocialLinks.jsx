@@ -53,7 +53,7 @@ const SocialLinks = () => {
         {/* Mapping through social links to display them */}
         {links.map(({ id, child, href, style, download }) => (
           <li
-            key={id, child}
+            key={id}
             className={
               "flex bg-blue-500 justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-5px] hover:rounded-md duration-300" +
               " " +
