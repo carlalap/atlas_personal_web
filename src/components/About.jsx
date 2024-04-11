@@ -19,11 +19,13 @@ const About = () => {
 
         {/* Content about professional path */}
         <p className="text-xl mt-20">
-        I am a Full Stack Web Developer student at Atlas School 
+        I am a Software Developer student at Atlas School 
         (formerly Holberton School) in Tulsa, OK. I have a solid foundation 
         in creating efficient technological solutions using JavaScript,
-        Python, HTML, CSS, MySQL, and C. With the addition of React and Tailwind
-        for my personal web projects, I am expanding my skill set. 
+        Python, HTML, CSS, MySQL, and C.   I am also passionate about leveraging data-driven insights to drive informed
+        decision-making using MySQL, Python, Jupyter, and other different tools for data analysis. I eagerly embrace new
+        challenges and seek opportunities to expand my skills in data analysis, visualization, and software development 
+        With the addition of React and Tailwind for my personal web projects, I am expanding my skill set. 
         I am self-motivated and always eager to learn new skills.
         </p>
 
