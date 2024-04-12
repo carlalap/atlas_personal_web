@@ -51,7 +51,7 @@ const Portfolio = () => {
     // Portfolio section with a gradient background
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white min-h-screen"
+      className="bg-gradient-to-b bottom-2 from-black to-gray-800 w-full text-white min-h-screen"
     >
       {/* Container for centering content */}
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">

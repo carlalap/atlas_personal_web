@@ -102,11 +102,11 @@ const Experience = () => {
     // Experience section with a gradient background
     <div
       name="experience"
-      className="pt-20 bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="pt-20 bg-gradient-to-b pb-20 from-gray-800 to-black w-full min-h-screen"
     >
       {/* Container for centering content */}
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-        <div className="pt-20 pb-2">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white mb-10">
+        <div className="pt-20 pb-20">
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Experience
           </p>
@@ -114,7 +114,7 @@ const Experience = () => {
         </div>
 
         {/* Grid layout for displaying technologies */}
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-6 text-center sm:py-2 px-6 sm:mx-4">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-6 text-center sm:py-4 px-6 sm:mx-4">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}

@@ -6,10 +6,10 @@ const Contact = () => {
     // Contact section with a gradient background
     <div
       name="contact"
-      className="w-full relative bottom-0 bg-gradient-to-b from-black to-gray-800 pb-24 text-white sm:pt-20"
+      className="w-full relative pt-10 bg-gradient-to-b from-black to-gray-800 pb-24 text-white sm:pt-20 min-h-screen"
     >
       {/* Container for centering content */}
-      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-screen">
+      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-screen mb-10">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact
