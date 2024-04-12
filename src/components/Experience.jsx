@@ -11,6 +11,8 @@ import Docker from "../assets/Docker.png";
 import linux from "../assets/linux.png";
 import Python from "../assets/Python.png";
 import Flask from "../assets/Flask.png";
+import SQL from "../assets/SQL.jpg";
+import mongoDB from "../assets/mongodb.png";
 
 // Experience Component
 const Experience = () => {
@@ -81,6 +83,18 @@ const Experience = () => {
       src: Flask,
       title: "Flask",
       style: "shadow-white",
+    },
+    {
+      id: 12,
+      src: SQL,
+      title: "SQL",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 13,
+      src: mongoDB,
+      title: "mongoDB",
+      style: "shadow-yellow-400",
     },
   ];
 
