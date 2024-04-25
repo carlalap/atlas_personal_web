@@ -49,8 +49,8 @@ const Home = () => {
                     <img 
                     src={HeroImage}
                     alt="my profile"
-                    className="rounded-circle mx-auto w-2/3 md:w-full"
-                    style={{ borderRadius: '50%' }}
+                    className="rounded-2xl mx-auto w-2/3 md:w-full"
+                    style={{ borderRadius: '60%' }}
                     />
                 </div>
             </div>
