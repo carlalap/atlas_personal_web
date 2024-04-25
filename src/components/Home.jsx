@@ -11,7 +11,7 @@ const Home = () => {
         from-black via-black to-gray-800"
         >
             {/* Container for centering content */}
-            <div className="mt-20 max-w-screen-lg mx-auto flex flex-col
+            <div className="max-w-screen-lg mx-auto flex flex-col
             items-center justify-center h-full px-4 md:flex-row">
                 {/* Left column with text content */}
                 <div className="flex flex-col justify-center h-full">
