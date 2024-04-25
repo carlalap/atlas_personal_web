@@ -11,7 +11,7 @@ const Home = () => {
         from-black via-black to-gray-800"
         >
             {/* Container for centering content */}
-            <div className="max-w-screen-lg mx-auto flex flex-col
+            <div className="mt-20 max-w-screen-lg mx-auto flex flex-col
             items-center justify-center h-full px-4 md:flex-row">
                 {/* Left column with text content */}
                 <div className="flex flex-col justify-center h-full">
@@ -50,7 +50,7 @@ const Home = () => {
                     src={HeroImage}
                     alt="my profile"
                     className="rounded-2xl mx-auto w-2/3 md:w-full"
-                    style={{ borderRadius: '60%' }}
+                    style={{ borderRadius: '50%' }}
                     />
                 </div>
             </div>
