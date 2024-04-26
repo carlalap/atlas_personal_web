@@ -114,7 +114,7 @@ const Experience = () => {
         </div>
 
         {/* Grid layout for displaying technologies */}
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-6 text-center sm:py-4 px-6 sm:mx-4">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-6 text-center sm:py-4 px-6 sm:mx-4">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
