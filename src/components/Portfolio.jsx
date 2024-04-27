@@ -4,6 +4,9 @@ import SimpleShell from "../assets/portfolio/SimpleShell.jpg";
 import AirbnbClone from "../assets/portfolio/AirbnbClone.jpg";
 import BunkerBites from "../assets/portfolio/BunkerBites.jpg";
 import ETL_Data from "../assets/portfolio/Extract_data.jpg";
+import GalacticEatery from "../assets/portfolio/GalacticEatery.png"
+import SmileJavaScript from "../assets/portfolio/SmileJavaScript.png"
+import Headphones from "../assets/portfolio/headphones.png"
 
 // Portfolio component
 const Portfolio = () => {
@@ -17,33 +20,45 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: AirbnbClone,
-      title: "Airbnb Clone",
-      link: "https://github.com/carlalap/holbertonschool-AirBnB_clone_v4",
-    },
-    {
-      id: 3,
-      src: SimpleShell,
-      title: "Simple Shell Project",
-      link: "https://github.com/carlalap/holbertonschool-simple_shell",
-    },
-    {
-      id: 4,
-      src: BunkerBites,
-      title: "Bunker Bites",
-      link: "https://github.com/carlalap/Bunker_Bites",
-    },
-    {
-      id: 5,
       src: ETL_Data,
       title: "ETL - The Joy Of Painting API",
       link: "https://github.com/carlalap/atlas-the-joy-of-painting-api",
     },
     {
+      id: 3,
+      src: GalacticEatery,
+      title: "The Galactic Eatery",
+      link: "https://github.com/carlalap/the-galactic-eatery",
+    },
+    {
+      id: 4,
+      src: SmileJavaScript,
+      title: "Smiling School_JavaScript",
+      link: "https://github.com/carlalap/holbertonschool-smiling-school-javascript",
+    },
+    {
+      id: 5,
+      src: BunkerBites,
+      title: "Bunker Bites",
+      link: "https://github.com/carlalap/Bunker_Bites",
+    },
+    {
       id: 6,
+      src: Headphones,
+      title: "Headphones",
+      link: "https://github.com/carlalap/holbertonschool-headphones",
+    },
+    {
+      id: 7,
+      src: AirbnbClone,
+      title: "Airbnb Clone",
+      link: "https://github.com/carlalap/holbertonschool-AirBnB_clone_v4",
+    },
+    {
+      id: 8,
       src: SimpleShell,
-      title: "Still in development",
-      link: "www.indevelopment.com",
+      title: "Simple Shell Project",
+      link: "https://github.com/carlalap/holbertonschool-simple_shell",
     },
   ];
 
@@ -72,9 +87,10 @@ const Portfolio = () => {
                 src={src}
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
+                style={{ width: '400px', height: '200px' }}
               />
               {/* Project title with link */}
-               <div className="flex items-center justify-center">
+               <div className="flex items-center justify-center h-20">
                 <a 
                   href={link} 
                   target="_blank" 
