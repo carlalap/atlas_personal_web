@@ -1,4 +1,4 @@
-gineerimport React from "react";
+import React from "react";
 
 
 // About component
