@@ -1,4 +1,4 @@
-import React from "react";
+gineerimport React from "react";
 
 
 // About component
@@ -19,7 +19,7 @@ const About = () => {
 
         {/* Content about professional path */}
         <p className="text-xl mt-20">
-        I am a Software Developer student at Atlas School 
+        I am a Software Engineer student at Atlas School 
         (formerly Holberton School) in Tulsa, OK. I have a solid foundation 
         in creating efficient technological solutions using JavaScript,
         Python, HTML, CSS, MySQL, and C.   I am also passionate about leveraging data-driven insights to drive informed
