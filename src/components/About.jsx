@@ -19,13 +19,10 @@ const About = () => {
 
         {/* Content about professional path */}
         <p className="text-xl mt-20">
-        I am a Software Engineer student at Atlas School 
-        (formerly Holberton School) in Tulsa, OK. I have a solid foundation 
-        in creating efficient technological solutions using JavaScript,
-        Python, HTML, CSS, MySQL, and C.   I am also passionate about leveraging data-driven insights to drive informed
-        decision-making using MySQL, Python, Jupyter, and other different tools for data analysis. I eagerly embrace new
-        challenges and seek opportunities to expand my skills in data analysis, visualization, and software development 
-        With the addition of React and Tailwind for my personal web projects, I am expanding my skill set. 
+        I am a highly driven professional with a diverse background in software engineering, project management and IT.
+        I gained a solid foundation in creating efficient technological solutions using JavaScript, Python, HTML, CSS, SQL, and other technologies at Atlas School. I love applying responsive design principiles and watching my web pages shring into mobile screens and still look amazing.  I am committed to delivering efficient and effective software solutions.    
+        I am a hardworking and lifelong learner who enjoys helping others navigate challenges in technology.  
+        I eagerly embrace new challenges and seek opportunities in the industry to grow and expand my skills in IT, software development, cloud computing, and data analysis.
         I am self-motivated and always eager to learn new skills.
         </p>
 
