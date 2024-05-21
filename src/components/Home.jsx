@@ -18,7 +18,7 @@ const Home = () => {
                     {/* Title */}
                     <h2 className="text-4xl sm:text-7xl font-bold
                     text-white">
-                        I am a Software Developer
+                        I am a Software Engineer
                     </h2>
                     {/* Description */}
                     <p className="text-gray-400 py-4 max-w-md">
