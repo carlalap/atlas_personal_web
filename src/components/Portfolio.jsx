@@ -7,6 +7,8 @@ import ETL_Data from "../assets/portfolio/Extract_data.jpg";
 import GalacticEatery from "../assets/portfolio/GalacticEatery.png"
 import SmileJavaScript from "../assets/portfolio/SmileJavaScript.png"
 import Headphones from "../assets/portfolio/headphones.png"
+import CapstoneProject from "../assets/portfolio/hompepage.png"
+
 
 // Portfolio component
 const Portfolio = () => {
@@ -14,48 +16,54 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: CapstoneProject,
+      title: "Capstone Project: Aviation Instrument Trainer",
+      link: "https://github.com/carlalap/aviation_instrument_trainer",
+    },
+    {
+      id: 2,
       src: MuseumImag,
       title: "Museum of Imagination",
       link: "https://museum-city-ae231.web.app/",
     },
     {
-      id: 2,
+      id: 3,
       src: ETL_Data,
       title: "ETL - The Joy Of Painting API",
       link: "https://github.com/carlalap/atlas-the-joy-of-painting-api",
     },
     {
-      id: 3,
+      id: 4,
       src: GalacticEatery,
       title: "The Galactic Eatery",
       link: "https://github.com/carlalap/the-galactic-eatery",
     },
     {
-      id: 4,
+      id: 5,
       src: SmileJavaScript,
       title: "Smiling School_JavaScript",
       link: "https://github.com/carlalap/holbertonschool-smiling-school-javascript",
     },
     {
-      id: 5,
+      id: 6,
       src: BunkerBites,
       title: "Bunker Bites",
       link: "https://github.com/carlalap/Bunker_Bites",
     },
     {
-      id: 6,
+      id: 7,
       src: Headphones,
       title: "Headphones",
       link: "https://github.com/carlalap/holbertonschool-headphones",
     },
     {
-      id: 7,
+      id: 8,
       src: AirbnbClone,
       title: "Airbnb Clone",
       link: "https://github.com/carlalap/holbertonschool-AirBnB_clone_v4",
     },
     {
-      id: 8,
+      id: 9,
       src: SimpleShell,
       title: "Simple Shell Project",
       link: "https://github.com/carlalap/holbertonschool-simple_shell",
@@ -93,9 +101,9 @@ const Portfolio = () => {
                <div className="flex items-center justify-center h-20">
                 <a 
                   href={link} 
-                  target="_blank" 
+                  target="_blank"
                   rel="noopener noreferrer" 
-                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  className="w-64 px-6 py-3 m-4 duration-200 hover:scale-105"
                 >
                   {title}
                 </a>

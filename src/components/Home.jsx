@@ -23,9 +23,8 @@ const Home = () => {
                     {/* Description */}
                     <p className="text-gray-400 py-4 max-w-md">
                     I am a software engineer at Atlas School
-                    (formerly Holberton School) in Tulsa, OK. Take a look at my
-                    first website using
-                     technologies like React and Tailwind.
+                    in Tulsa, OK. Take a look at my
+                    first website using technologies like React and Tailwind.
                     </p>
                     {/* Portfolio link */}
                     <div>

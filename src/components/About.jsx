@@ -19,11 +19,10 @@ const About = () => {
 
         {/* Content about professional path */}
         <p className="text-xl mt-20">
-        I am a highly driven professional with a diverse background in software engineering, project management and IT.
-        I gained a solid foundation in creating efficient technological solutions using JavaScript, Python, HTML, CSS, SQL, and other technologies at Atlas School. I love applying responsive design principiles and watching my web pages shring into mobile screens and still look amazing.  I am committed to delivering efficient and effective software solutions.    
-        I am a hardworking and lifelong learner who enjoys helping others navigate challenges in technology.  
-        I eagerly embrace new challenges and seek opportunities in the industry to grow and expand my skills in IT, software development, cloud computing, and data analysis.
-        I am self-motivated and always eager to learn new skills.
+        Driven professional with a diverse background in software and other IT roles.  
+        I am eager to explore new opportunities and am actively seeking roles in IT,
+        data analytics, database administration, systems specialist, technical support, 
+        IT project management, frontend or backend web development, or cloud computing.
         </p>
 
         <br />
