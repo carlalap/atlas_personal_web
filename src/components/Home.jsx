@@ -22,9 +22,8 @@ const Home = () => {
                     </h2>
                     {/* Description */}
                     <p className="text-gray-400 py-4 max-w-md">
-                    I am a software engineer at Atlas School
-                    in Tulsa, OK. Take a look at my
-                    first website using technologies like React and Tailwind.
+                    Take a look at my
+                    website using technologies like React and Tailwind.
                     </p>
                     {/* Portfolio link */}
                     <div>

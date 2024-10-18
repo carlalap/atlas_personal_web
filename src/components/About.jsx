@@ -19,10 +19,13 @@ const About = () => {
 
         {/* Content about professional path */}
         <p className="text-xl mt-20">
-        Driven professional with a diverse background in software and other IT roles.  
-        I am eager to explore new opportunities and am actively seeking roles in IT,
-        data analytics, database administration, systems specialist, technical support, 
-        IT project management, frontend or backend web development, or cloud computing.
+        Are you looking for a passionate and skilled software developer to bring
+        your ideas to life? I am eager to apply my knowledge and skills to help 
+        you create high-quality, functional, and visually engaging websites
+        and web applications.
+
+        I focus on clean code, modern design, and user-friendly functionality 
+        to ensure that your project meets your business needs.
         </p>
 
         <br />
